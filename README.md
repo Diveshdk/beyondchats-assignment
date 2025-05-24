@@ -31,7 +31,38 @@ A fully responsive, component-rich admin dashboard and chat management interface
 
 ## 📁 Project Structure
 
-<pre> divesdk-beyondchats-assignment/ ├── app/ # App Router pages, layouts, and styling │ ├── globals.css │ ├── layout.tsx │ ├── loading.tsx │ └── page.tsx │ ├── components/ # Feature components and UI building blocks │ ├── admin-dashboard.tsx │ ├── ... │ └── ui/ # Reusable UI primitives (buttons, modals, forms, etc.) │ ├── button.tsx │ ├── card.tsx │ ├── ... │ ├── hooks/ # Custom React hooks │ ├── use-mobile.tsx │ └── use-toast.ts │ ├── lib/ # Utility functions │ └── utils.ts │ ├── public/ # Static assets ├── styles/ # Global CSS │ └── globals.css │ ├── tailwind.config.ts # Tailwind CSS config ├── next.config.mjs # Next.js config ├── package.json # Dependencies and scripts ├── pnpm-lock.yaml # PNPM lock file └── tsconfig.json # TypeScript config </pre>
+divesdk-beyondchats-assignment/
+├── app/                    # App Router pages, layouts, and styling
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── loading.tsx
+│   └── page.tsx
+│
+├── components/             # Feature components and UI building blocks
+│   ├── admin-dashboard.tsx
+│   ├── ...
+│   └── ui/                 # Reusable UI primitives (buttons, modals, forms, etc.)
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── ...
+│
+├── hooks/                  # Custom React hooks
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
+│
+├── lib/                    # Utility functions
+│   └── utils.ts
+│
+├── public/                 # Static assets
+├── styles/                 # Global CSS
+│   └── globals.css
+│
+├── tailwind.config.ts      # Tailwind CSS config
+├── next.config.mjs         # Next.js config
+├── package.json            # Dependencies and scripts
+├── pnpm-lock.yaml          # PNPM lock file
+└── tsconfig.json           # TypeScript config
+
 
 yaml
 Copy
