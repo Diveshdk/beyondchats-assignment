@@ -1,58 +1,61 @@
-BeyondChats Assignment
-🚀 Live Preview: https://beyondchats-assignment-fawn.vercel.app/
+# BeyondChats Assignment
 
-A fully responsive, component-rich admin dashboard and chat management interface built with Next.js, Tailwind CSS, and integrated with Gemini AI API.
+🚀 **Live Preview**: [https://beyondchats-assignment-fawn.vercel.app/](https://beyondchats-assignment-fawn.vercel.app/)
 
-📌 Features
-💬 AI-powered chat interface using Gemini API
+A fully responsive, component-rich admin dashboard and chat management interface built with **Next.js**, **Tailwind CSS**, and integrated with **Gemini AI API**.
 
-📊 Admin dashboard with analytics, ticket, and inventory management
+---
 
-🧑‍💼 Agent and customer management panels
+## 📌 Features
 
-🧾 Order lookup, ticket history, and profile sections
+- 💬 AI-powered chat interface using Gemini API  
+- 📊 Admin dashboard with analytics, ticket, and inventory management  
+- 🧑‍💼 Agent and customer management panels  
+- 🧾 Order lookup, ticket history, and profile sections  
+- 🎨 Built with reusable UI components for scalability  
+- 🌙 Light/Dark mode toggle with theme provider  
+- 📱 Fully responsive for desktop and mobile
 
-🎨 Built with reusable UI components for scalability
+---
 
-🌙 Light/Dark mode toggle with theme provider
+## 🛠 Tech Stack
 
-📱 Fully responsive for desktop and mobile
+- **Frontend Framework**: Next.js (App Router)  
+- **Styling**: Tailwind CSS  
+- **AI Integration**: Gemini AI API  
+- **Package Manager**: PNPM  
+- **Type Safety**: TypeScript  
+- **UI Components**: Custom + Headless UI-style reusable components
 
-🛠 Tech Stack
-Frontend Framework: Next.js (App Router)
+---
 
-Styling: Tailwind CSS
+## 📁 Project Structure
 
-AI Integration: Gemini AI API
+divesh-beyondchats-assignment/
+├── app/ # App router pages and layout
+├── components/ # Feature and UI components
+│ └── ui/ # Reusable UI primitives (buttons, modals, forms, etc.)
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions
+├── public/ # Static assets
+├── styles/ # Global CSS (Tailwind)
+├── tailwind.config.ts # Tailwind CSS config
+├── next.config.mjs # Next.js config
+├── package.json # Project dependencies and scripts
+├── pnpm-lock.yaml # Lock file
+└── tsconfig.json # TypeScript config
 
-Package Manager: PNPM
-
-Type Safety: TypeScript
-
-UI Components: Custom + Headless UI-style reusable components
-
-📁 Project Structure
-bash
+yaml
 Copy
 Edit
-diveshi-beyondchats-assignment/
-├── app/                   # App router pages and layout
-├── components/            # Feature and UI components
-│   └── ui/                # Reusable UI primitives (buttons, modals, forms, etc.)
-├── hooks/                 # Custom React hooks
-├── lib/                   # Utility functions
-├── public/                # Static assets
-├── styles/                # Global CSS (Tailwind)
-├── tailwind.config.ts     # Tailwind CSS config
-├── next.config.mjs        # Next.js config
-├── package.json           # Project dependencies and scripts
-├── pnpm-lock.yaml         # Lock file
-└── tsconfig.json          # TypeScript config
-⚙️ Getting Started
-1. Clone the Repository
-bash
-Copy
-Edit
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Diveshdk/beyondchats-assignment
 cd beyondchats-assignment
 2. Install Dependencies
@@ -65,7 +68,7 @@ bash
 Copy
 Edit
 pnpm dev
-Visit http://localhost:3000 in your browser to see the app.
+Visit http://localhost:3000 in your browser to view the app.
 
 🧪 Gemini AI API Setup
 To enable AI responses via Gemini:
@@ -86,8 +89,7 @@ Copy
 Edit
 GEMINI_API_KEY=your_google_gemini_api_key
 📸 Preview
-
-(Upload and link a screenshot for better presentation)
+(Upload and link a screenshot here for better presentation)
 
 ✍️ Author
-Made with 💡 by diveshdk
+Made with 💡 by divesdhk
